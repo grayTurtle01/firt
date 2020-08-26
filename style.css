@@ -1,15 +1,34 @@
 body {
-  background: azure;
+  padding: 20px;
+  background: lightblue;
 }
 
 #pokemon-logo {
   width: 400px;
 }
 
+#pokemon {
+  background: white;
+  width:300px;
+  height: 300px;
+  margin: 20px;
+
+  border-radius: 10px;
+}
+
 #back-button {
   width: 100px;
+  margin:10px;
 }
 
 #forward-button{
   width: 100px;
+  margin: 10px;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
 }
